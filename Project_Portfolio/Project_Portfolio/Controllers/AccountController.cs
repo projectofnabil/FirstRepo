@@ -26,7 +26,7 @@ namespace Project_Portfolio.Controllers
             if (ModelState.IsValid)
             {
                 ManageDatabase mn = new ManageDatabase();
-                mn.AddPerson(pn);
+                mn.AddOrEditPerson(pn,"Add");
                 return RedirectToAction("Success");
 
             }

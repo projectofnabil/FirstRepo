@@ -11,7 +11,7 @@ namespace Project_Portfolio.Models
         {
 
 
-        public Guid ID { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Nid { get; set; }
