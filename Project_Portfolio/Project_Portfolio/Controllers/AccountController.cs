@@ -32,10 +32,49 @@ namespace Project_Portfolio.Controllers
             }
             return View();
         }
+
+        public ActionResult LogIn(LogInViewModel model) {
+
+
+
+            return View();
+
+        }
+
+
+
+
+
         public ActionResult Success() {
 
             return View();
         }
+
+
+
+
+        //public JsonResult CheckForDuplication(string Work_Email)
+        //{
+            //            ManageData mn = new ManageData();
+            //            var data = mn.Persons.Where(p => p.Work_Email.Equals(Work_Email,
+            //StringComparison.CurrentCultureIgnoreCase)).FirstOrDefault();
+
+            //            if (data != null)
+            //            {
+            //                return Json("Sorry, this Email already exists",
+            //JsonRequestBehavior.AllowGet);
+            //            }
+            //            else
+            //            {
+            //                return Json(true, JsonRequestBehavior.AllowGet);
+            //            }
+
+
+        //}
+
+
+
+
 
 
 
